@@ -1,15 +1,17 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import SocialLinks from "./components/SocialLinks";
+import Home from "./components/Home";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 import "./index.css";
 
 function App() {
   return (
     <>
-      <Hero />
-      <Navbar />
-      {/* <SocialLinks /> */}
+      <Home />
+      <About />
+      <Experience />
+      {/* <Projects /> */}
     </>
   );
 }

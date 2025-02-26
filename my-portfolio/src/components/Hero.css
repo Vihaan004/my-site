@@ -1,7 +1,8 @@
 
 .hero {
-    max-width: 600px;
-    margin: 17% auto 0 auto;
+    /* max-width: 600px; */
+    margin: 16% auto 0 auto;
+    max-height: 300px;
     /* display: flex; */
     text-align: center;
     /* align-items: center; */
@@ -11,6 +12,7 @@
 .subtitle {
     font-size: 1rem;
     color: #c84b31;
+    font-weight: 400;
     margin-bottom: 0;
     margin-top: 50px;
 }
@@ -25,6 +27,7 @@
 .description {
     margin-top: 5px;
     font-size: 1.7rem;
+    font-weight: 100;
 }
 
 .socials {
@@ -40,7 +43,7 @@
     text-decoration: none;
     color: #ecdbba;
     transition: color 0.3s ease-in-out;
-    height: 30px;
+    height: 25px;
     opacity: 0.3;
     
     transition: opacity 0.3s ease-in-out;
