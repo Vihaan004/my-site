@@ -10,30 +10,29 @@
     align-items: center;
     justify-content: center;
     background-color: #191919;
-
-  }
+    z-index: 1000;
+}
   
-  .nav-links {
+.nav-links {
     display: flex;
     gap: 40px;
     list-style-type: none;
     padding: 0;
     margin: 20px;
-  }
+}
   
-  .nav-links li {
+.nav-links li {
     font-size: 20px;
     font-weight: 200;
-  }
+}
   
-  .nav-links a {
+.nav-links a {
     text-decoration: none;
     color: #ecdbba;
     transition: color 0.3s ease-in-out;
     font-size: 20px;
-  }
+}
   
-  .nav-links a:hover {
+.nav-links a:hover {
     color: #c84b31;
-  }
-  
+}
