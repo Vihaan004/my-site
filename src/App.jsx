@@ -46,7 +46,7 @@ function MainPage() {
 
 function App() {
   return (
-    <Router basename="/my-site">
+    <Router basename="/">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainPage />} />
